@@ -477,8 +477,8 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
-  padding: 20px 7px;
+  font-size: 12px;
+  padding: 10px 7px;
   transition: color var(--transition-1);
 }
 
@@ -867,7 +867,25 @@ main {
   border-radius: inherit;
 }
 
+/*-----------------------------------*\
+  #VEILLE
+\*-----------------------------------*/
 
+.veille-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: var(--white-1);
+}
+
+.veille-thumb-reseau {
+  background: linear-gradient(135deg, hsl(210, 50%, 25%), hsl(200, 45%, 40%));
+}
+
+.veille-thumb-nis2 {
+  background: linear-gradient(135deg, hsl(350, 70%, 25%), hsl(0, 75%, 40%));
+}
 
 
 
